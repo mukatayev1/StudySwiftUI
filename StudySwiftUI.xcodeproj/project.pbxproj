@@ -15,6 +15,9 @@
 		1DC209DF2824E1BD004E3B03 /* AidosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC209DE2824E1BD004E3B03 /* AidosView.swift */; };
 		1DC209E12824E219004E3B03 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209E02824E219004E3B03 /* screenshot.png */; };
 		1DC209E32824E25A004E3B03 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1DC209E22824E25A004E3B03 /* README.md */; };
+		6241D4E328251AF10050BF98 /* CenterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241D4E228251AF00050BF98 /* CenterTextView.swift */; };
+		6241D4E728251E9E0050BF98 /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241D4E628251E9E0050BF98 /* SwiftUIImage.swift */; };
+		6241D4E92825201D0050BF98 /* ShowListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6241D4E82825201D0050BF98 /* ShowListButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		1DC209DE2824E1BD004E3B03 /* AidosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidosView.swift; sourceTree = "<group>"; };
 		1DC209E02824E219004E3B03 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		1DC209E22824E25A004E3B03 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6241D4E228251AF00050BF98 /* CenterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterTextView.swift; sourceTree = "<group>"; };
+		6241D4E628251E9E0050BF98 /* SwiftUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
+		6241D4E82825201D0050BF98 /* ShowListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowListButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				1DC209DE2824E1BD004E3B03 /* AidosView.swift */,
+				6241D4E228251AF00050BF98 /* CenterTextView.swift */,
+				6241D4E628251E9E0050BF98 /* SwiftUIImage.swift */,
+				6241D4E82825201D0050BF98 /* ShowListButton.swift */,
 			);
 			path = Aidos;
 			sourceTree = "<group>";
@@ -168,6 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DC209CF2824D6E3004E3B03 /* ContentView.swift in Sources */,
+				6241D4E328251AF10050BF98 /* CenterTextView.swift in Sources */,
+				6241D4E92825201D0050BF98 /* ShowListButton.swift in Sources */,
+				6241D4E728251E9E0050BF98 /* SwiftUIImage.swift in Sources */,
 				1DC209DF2824E1BD004E3B03 /* AidosView.swift in Sources */,
 				1DC209DD2824E077004E3B03 /* HanSJinView.swift in Sources */,
 				1DC209CD2824D6E3004E3B03 /* StudySwiftUIApp.swift in Sources */,

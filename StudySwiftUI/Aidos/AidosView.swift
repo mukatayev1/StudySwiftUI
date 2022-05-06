@@ -10,12 +10,25 @@ import SwiftUI
 struct AidosView: View {
     
     var body: some View {
-        Text("Aidos")
+        ZStack {
+            Color(.black)
+                .ignoresSafeArea()
+            VStack {
+                SwiftUIImage()
+                CenterTextView()
+                    .offset(x: 0, y: 20)
+                ShowListButton()
+                    .padding()
+                    .offset(x: 0, y: 30)
+                
+            }
+        }
     }
 }
 
 struct AidosView_Previews: PreviewProvider {
     static var previews: some View {
-        HanSJinView()
+        AidosView()
     }
 }
+
